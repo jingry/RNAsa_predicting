@@ -12,4 +12,4 @@ CheckPointFile: the saved checkpoint file, currently the 405 files in folder Che
 EmbeddingSize: integer, only 16, 32 or 64 are available, please note that this value should be the same with CheckPointFile. 
 
 
-NOTE: The format of the saved checkpoint files are ‘ModelName_TestFile_ EmbeddingSize_ DropoutRate’, thus please specify the paths accordingly, otherwise the predicting might be wrong. We didn’t provide the automatic script is since we provided the origin model, thus this format will be better for usability.
+NOTE: The format of the saved checkpoint files are ‘ModelName_TestFile_ EmbeddingSize_ DropoutRate’, thus please specify the paths accordingly, otherwise the predicting might be wrong. We didn’t provide the automatic script is because we provided the origin model, thus the current usage will be better for further development.
