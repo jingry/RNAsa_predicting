@@ -1,3 +1,5 @@
+
+
 The code in this repository is for predicting RNA solvent accessibility, multiple models used for training and hundreds of checkpoints were kept for using. The basic usage is 
 
 `python <modelFile> <TestDataFile> <CheckPointFile> <EmbeddingSize> <DropoutRate>`
@@ -13,3 +15,9 @@ EmbeddingSize: integer, only 16, 32 or 64 are available, please note that this v
 
 
 NOTE: The format of the saved checkpoint files are ‘ModelName_TestFile_ EmbeddingSize_ DropoutRate’, thus please specify the paths accordingly, otherwise the predicting might be wrong. We didn’t provide the automatic script is because we provided the origin model, thus the current usage will be better for further development.
+
+
+Required extra packages:
+
+Pytorch>=1.10.0
+scikit-learn
